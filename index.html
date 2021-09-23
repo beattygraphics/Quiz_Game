@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<html lang="us">
+
+<head>
+    
+    <title><Strong>Quiz Game</Strong></title>
+
+    <link rel="stylesheet" href="assets/css/styles.css";
+</head>
+
+<body>
+
+    <div class="timer-container">
+
+    </div>
+
+
+    <div class="question-container">
+        <div class="question">What Do I Do when my Boss Calls Me after 5:00pm?</div>
+        <div class="answers-container">
+            <button class="question-answer" data-is-correct="yes" data-question=1>Send Him To Voicemail</button>
+            <button class="question-answer" data-question=1>Answer the Phone</button>
+            <button class="question-answer" data-question=1>Send a Text Message Saying Im finishing up a Meeting</button>
+            <button class="question-answer" data-question=1>Throw My Phone in the Closest Body of Water</button>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="question">How Many Hours A Week Do I Work</div>
+        <div class="answers-container">
+            <button class="question-answer" data-question=2>40 Hours</button>
+            <button class="question-answer" data-question=2>50 Hours</button>
+            <button class="question-answer" data-is-correct="yes" data-question=2>70 Hours</button>
+            <button class="question-answer" data-question=2>60 Hours</button>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="question">How Many Gallons are in a Standard 87 Octane Fuel Tank?</div>
+        <div class="answers-container">
+            <button class="question-answer" data-question=3>13,000 Gallons</button>
+            <button class="question-answer" data-question=3 data-is-correct="yes">15,000 Gallons</button>
+            <button class="question-answer" data-question=3>7,000 Gallons</button>
+            <button class="question-answer" data-question=3>9,000 Gallons</button>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="question">What does E85 Stand For in Fuel Grades</div>
+        <div class="answers-container">
+            <button class="question-answer" data-question=4>Its the number of Nodes in the Fuel</button>
+            <button class="question-answer" data-question=4>Its A Special Fuel Brand</button>
+            <button class="question-answer" data-question=4>Its 100% Ethanol</button>
+            <button class="question-answer" data-question=4 data-is-correct="yes">Its a Mix of 85% Regular Fuel and 15% Ethanol</button>
+        </div>
+    </div>
+
+    <div class="question-container">
+        <div class="question">What Does ATG Stan For?</div>
+        <div class="answers-container">
+            <button class="question-answer" data-is-correct="yes" data-question=5>Automatic Tank Guage</button>
+            <button class="question-answer" data-question=5>Arial Tennis Game</button>
+            <button class="question-answer" data-question=5>Automatic Time Generator</button>
+            <button class="question-answer" data-question=5>All Total Guages</button>
+        </div>
+    </div>
+
+
+    
+    <button class="start-quiz-button">Start Quiz</button>
+
+    <hr />
+    <div class="right-wrong"></div>
+
+    <div class="initials-container" style="display:none;">
+        <label for="initials">Enter your initials</label>
+        <input type="text" name="initials">
+        <button class="save-score">Save score</button>
+    </div>
+
+    <div class="leaderboard-container" style="display:none;">
+    
+    </div>
+
+    <div class="go-back-or-clear-container" style="display:none;">
+
+        <button class="start-over">Start Over</button>
+        <button class="clear-leaderboard">Clear Leaderboard</button>
+    
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
